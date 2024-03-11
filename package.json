@@ -1,0 +1,20 @@
+{
+  "name": "jewel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.39",
+    "gsap": "^3.12.5",
+    "split-type": "^0.3.4",
+    "three": "^0.162.0"
+  }
+}
