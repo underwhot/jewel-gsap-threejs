@@ -3,7 +3,8 @@ body {
   background: #fff url('/bg.svg');
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
- /* Remove later */
+  line-height: 1.1;
+  /* Remove later */
 }
 a {
   text-decoration: none;
@@ -24,7 +25,7 @@ a {
   width: 100%;
   box-sizing: border-box;
   padding: clamp(16px, 5%, 100px);
- /* Adjust for fluid side margins */
+  /* Adjust for fluid side margins */
 }
 /* Header */
 header {
@@ -156,7 +157,7 @@ h3 {
 .slider .slide:nth-of-type(2) {
   background: #000 url('/slide2.jpg') no-repeat;
   background-size: cover;
-  color: black;
+  color: white;
 }
 .slider .slide:nth-of-type(2) p {
   width: 100%;
@@ -193,7 +194,8 @@ section.contact .inner-contact {
 section.contact .inner-contact span {
   display: block;
 }
-section.contact .inner-contact .line-top, section.contact .inner-contact .line-bottom {
+section.contact .inner-contact .line-top,
+section.contact .inner-contact .line-bottom {
   position: absolute;
   top: 0;
   left: 0;
@@ -225,44 +227,46 @@ section.contact .contact-desc {
 @media (min-width: 768px) {
   main {
     display: flex;
- }
+  }
   main .right {
     display: block;
- }
+  }
   .inspection {
     display: flex;
     align-items: center;
     gap: 2em;
     max-width: 1200px;
     margin: 15em auto 0;
- }
+  }
   .inspection h2 {
     flex: 0.3;
- }
+  }
   .inspection > div {
     flex: 1;
     height: 100px;
     display: grid;
     place-content: center;
- }
+  }
   .inspection > div p {
     text-align: center;
- }
+  }
   .inspection p {
     flex: 1;
     text-align: left;
- }
+  }
   .slider {
     width: 300%;
     display: flex;
- }
-  .slider .slide:nth-of-type(1) p, .slider .slide:nth-of-type(2) p, .slider .slide:nth-of-type(3) p {
+  }
+  .slider .slide:nth-of-type(1) p,
+  .slider .slide:nth-of-type(2) p,
+  .slider .slide:nth-of-type(3) p {
     width: 50%;
- }
+  }
   section.contact .contact-desc {
     width: 40%;
- }
+  }
   .details {
     margin-bottom: 0;
- }
+  }
 }
